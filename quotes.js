@@ -20,3 +20,9 @@ export const quotes = [
         author: "Justin Bieber"
     }
 ]
+
+export const images = [
+    "Nature-1.jpg", "Nature-2.jpg", 
+    "Nature-3.jpg", "Nature-4.jpg", 
+    "Nature.jpg"
+]
