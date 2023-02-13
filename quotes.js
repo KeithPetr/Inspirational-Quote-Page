@@ -16,7 +16,7 @@ export const quotes = [
         author: "Oprah Winfrey"
     },
     {
-        quote: "Someone once told me to never dream. I said NEVER SAY NEVER",
+        quote: "Someone once told me to never dream. I said NEVER SAY NEVER.",
         author: "Justin Bieber"
     }
 ]

@@ -1,24 +1,61 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;    
+  font-family: "Inter", sans-serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    background-image: url(images/Nature.jpg);
-    background-size: cover;
-    height: 100vh;
-    border-radius: 5px;
-    margin: 0 auto;
+.background-container {
+  background-image: url(images/Nature.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 304px;
+  border-radius: 10px;
 }
 
-h1 {
-    margin: 0;
+.quote-container {
+  background: #ffffff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 0 1em;
+  margin-top: 3em;
+  text-align: center;
+  max-width: 950px;
+  min-width: 244px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
 }
 
+.author {
+  font-weight: 700;
+  margin-top: 0;
+  align-self: flex-end;
+}
 
+@media (min-width: 501px) {
+  .quote-container {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 801px) {
+  .quote-container {
+    font-size: 2em;
+    width: 70%;
+  }
+
+  @media (min-width: 1250px) {
+    .quote-container {
+      font-size: 2.3em;
+      width: 70%;
+    }
+  }
+}
