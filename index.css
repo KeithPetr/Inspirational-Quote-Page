@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/Nature.jpg);
+    background-size: cover;
+    height: 100vh;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+
